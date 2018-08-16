@@ -7,6 +7,10 @@
     "test": "mocha **/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vartaks/nodejs-tests.git"
+  },
   "keywords": [
     "tests",
     "mocha",
@@ -15,6 +19,8 @@
   "author": "Sourabh Vartak",
   "license": "MIT",
   "devDependencies": {
+    "expect": "^1.20.2",
     "mocha": "^5.2.0"
-  }
+  },
+  "dependencies": {}
 }

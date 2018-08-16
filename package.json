@@ -1,0 +1,19 @@
+{
+  "name": "sourabh-nodejs-tests",
+  "version": "1.0.0",
+  "description": "Testing NodeJS app using Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "keywords": [
+    "tests",
+    "mocha",
+    "node"
+  ],
+  "author": "Sourabh Vartak",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

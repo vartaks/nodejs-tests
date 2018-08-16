@@ -20,7 +20,10 @@
   "license": "MIT",
   "devDependencies": {
     "expect": "^1.20.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "supertest": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
